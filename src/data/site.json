@@ -1,0 +1,254 @@
+{
+  "site": {
+    "name": "Muscle Monster Gym",
+    "shortName": "Muscle Monster",
+    "url": "https://www.example.com",
+    "locale": "en-IN",
+    "language": "en-IN",
+    "colors": {
+      "yellow": "#FFD400",
+      "black": "#000000",
+      "red": "#E10600",
+      "orange": "#FF6A13",
+      "white": "#FFFFFF"
+    },
+    "taglines": {
+      "primary": "Fitness builds confidence",
+      "hindi": "Aaj se shuru karo!"
+    },
+    "title": {
+      "default": "Muscle Monster Gym | Gym in Khalilabad, Uttar Pradesh",
+      "template": "%s | Muscle Monster Gym"
+    },
+    "description": "Muscle Monster Gym on Banjariya Road, Khalilabad, Uttar Pradesh. Fixed-price membership at \u20b9600/month, no bargaining. Free weights, cardio, group and personal training with owner-trainer Tahir.",
+    "keywords": [
+      "Muscle Monster Gym",
+      "gym in Khalilabad",
+      "gym fees Khalilabad",
+      "Banjariya Road gym",
+      "best gym Khalilabad Uttar Pradesh",
+      "personal trainer Khalilabad",
+      "fitness center Khalilabad"
+    ],
+    "images": {
+      "ogImage": { "path": "/og-image.jpg", "width": 1200, "height": 630, "alt": "Muscle Monster Gym - Fitness builds confidence - Banjariya Road, Khalilabad" },
+      "twitterImage": { "path": "/twitter-image.jpg", "width": 1200, "height": 630, "alt": "Muscle Monster Gym - Fitness builds confidence - Banjariya Road, Khalilabad" },
+      "favicon": "/favicon.ico",
+      "icon192": "/icons/icon-192.png",
+      "icon512": "/icons/icon-512.png",
+      "appleTouchIcon": "/icons/apple-touch-icon.png",
+      "maskableIcon": "/icons/maskable-icon.png"
+    },
+    "themeColor": "#FFD400",
+    "backgroundColor": "#000000",
+    "verification": {
+      "google": "",
+      "bing": ""
+    },
+    "analytics": {
+      "ga4Id": "",
+      "plausibleDomain": ""
+    }
+  },
+  "business": {
+    "schemaTypes": ["ExerciseGym", "LocalBusiness"],
+    "legalName": "Muscle Monster Gym",
+    "description": "A no-nonsense neighbourhood gym in Khalilabad with free weights, cardio, group classes and one-on-one coaching with owner-trainer Tahir, at a simple fixed price.",
+    "foundingDate": "",
+    "priceRange": "\u20b9\u20b9",
+    "phone": {
+      "display": "",
+      "e164": ""
+    },
+    "email": "",
+    "address": {
+      "streetAddress": "Banjariya Road",
+      "addressLocality": "Khalilabad",
+      "addressRegion": "Uttar Pradesh",
+      "postalCode": "272175",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "latitude": null,
+      "longitude": null
+    },
+    "googleBusinessProfileUrl": "",
+    "googleMapsSearchUrl": "https://www.google.com/maps/search/?api=1&query=Muscle+Monster+Gym+Banjariya+Road+Khalilabad+Uttar+Pradesh",
+    "googleMapsEmbedUrl": "",
+    "hours": {
+      "fallbackText": "Timings coming soon \u2014 call the gym to confirm.",
+      "rows": []
+    },
+    "social": {
+      "instagram": "",
+      "facebook": "",
+      "youtube": "",
+      "justdial": ""
+    },
+    "payment": {
+      "upi": {
+        "enabled": false,
+        "vpa": "",
+        "qrImage": ""
+      },
+      "cash": true,
+      "card": false
+    },
+    "amenities": [
+      "Free weights",
+      "Cardio machines",
+      "Group classes",
+      "Personal training",
+      "Changing area",
+      "Parking"
+    ],
+    "owner": {
+      "name": "Tahir",
+      "role": "Owner & Head Trainer",
+      "image": { "path": "/images/tahir-owner.jpg", "width": 1125, "height": 1500, "alt": "Tahir, owner and head trainer at Muscle Monster Gym, Khalilabad" }
+    }
+  },
+  "navigation": {
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "Why us", "href": "#why" },
+      { "label": "Trainer", "href": "#trainer" },
+      { "label": "Gallery", "href": "#gallery" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "cta": { "label": "Join Now", "action": "whatsapp", "whatsappMessage": "Hi! I want to join Muscle Monster Gym. Please share membership details." }
+  },
+  "hero": {
+    "tagChip": "Fitness builds confidence",
+    "headlineLines": ["Stronger", "than", "yesterday"],
+    "headline": "Stronger than yesterday",
+    "subheadlinePrefix": "Fixed price, zero bargaining, real results.",
+    "subheadlineAccent": "Aaj se shuru karo!",
+    "ctaPrimary": { "label": "Join now", "action": "whatsapp", "whatsappMessage": "Hi! I want to join Muscle Monster Gym. Please share membership details." },
+    "ctaSecondary": { "label": "View pricing", "action": "link", "href": "#pricing" },
+    "locationBadge": { "label": "Banjariya Road, Khalilabad", "action": "link" },
+    "priceSticker": { "amount": "\u20b9600", "label": "PER MONTH" },
+    "heroImage": { "path": "/images/tahir-hero.png", "width": 810, "height": 1080, "alt": "Tahir, owner-trainer of Muscle Monster Gym, flexing his bicep" }
+  },
+  "pricing": {
+    "title": "Simple pricing",
+    "lead": "One plan. One price. No bargaining, ever.",
+    "items": [
+      { "id": "monthly", "icon": "dumbbell", "amount": "\u20b9600", "label": "Monthly fees", "note": "" },
+      { "id": "registration", "icon": "target", "amount": "\u20b9500", "label": "Registration", "note": "one time" }
+    ],
+    "fixedPriceText": "Fixed price",
+    "noBargainingText": "No bargaining",
+    "firstMonthCard": {
+      "amount": "\u20b91,100",
+      "text": "Pay this once to start: \u20b9600 monthly fees + \u20b9500 one-time registration. From month two, pay only \u20b9600."
+    }
+  },
+  "why": {
+    "title": "Why Muscle Monster",
+    "items": [
+      { "icon": "dumbbell", "title": "Real equipment", "text": "Free weights, benches and cardio machines kept in working order, not just for show." },
+      { "icon": "bolt", "title": "Fixed, fair price", "text": "One price for everyone. No surprise charges, no bargaining at the counter." },
+      { "icon": "target", "title": "Goal-focused coaching", "text": "Tahir builds a simple plan around your goal, whether that's strength, weight loss or fitness." },
+      { "icon": "heart-pulse", "title": "Friendly, local gym", "text": "A neighbourhood gym on Banjariya Road where everyone knows your name." }
+    ]
+  },
+  "trainer": {
+    "name": "Tahir",
+    "role": "Owner & Head Trainer",
+    "image": { "path": "/images/tahir-owner.jpg", "width": 1125, "height": 1500, "alt": "Tahir, owner and head trainer at Muscle Monster Gym" },
+    "bio": [
+      "I started Muscle Monster Gym to give Khalilabad a straightforward place to train \u2014 good equipment, honest coaching and a price that never changes.",
+      "Whether you're here to build muscle, lose fat or just move better, I'll put together a plan that fits your life and keep you accountable to it."
+    ],
+    "chips": ["Strength training", "Weight loss", "Beginner friendly"],
+    "cta": { "label": "Talk to Tahir", "action": "whatsapp", "whatsappMessage": "Hi Tahir! I'd like to know more about training at Muscle Monster Gym." }
+  },
+  "gallery": {
+    "title": "Inside the gym",
+    "lead": "A look at the floor, the equipment and the people training here.",
+    "items": [
+      { "id": "floor", "title": "Gym floor walkthrough", "description": "A full walkthrough of the Muscle Monster Gym training floor in Khalilabad.", "featured": true, "video": "/videos/floor.mp4", "poster": "/images/posters/floor.jpg", "width": 1280, "height": 720, "size": 222048, "duration": 10, "uploadDate": "2025-01-15" },
+      { "id": "deadlift", "title": "Deadlift session", "description": "A member working through a deadlift session on the gym floor.", "featured": false, "video": "/videos/deadlift.mp4", "poster": "/images/posters/deadlift.jpg", "width": 720, "height": 960, "size": 120535, "duration": 6, "uploadDate": "2025-01-15" },
+      { "id": "bench-press", "title": "Bench press", "description": "Bench press training at Muscle Monster Gym.", "featured": false, "video": "/videos/bench-press.mp4", "poster": "/images/posters/bench-press.jpg", "width": 720, "height": 960, "size": 105488, "duration": 6, "uploadDate": "2025-01-15" },
+      { "id": "squat-rack", "title": "Squat rack", "description": "Squat rack work during a strength session.", "featured": false, "video": "/videos/squat-rack.mp4", "poster": "/images/posters/squat-rack.jpg", "width": 720, "height": 960, "size": 105848, "duration": 6, "uploadDate": "2025-01-15" },
+      { "id": "free-weights", "title": "Free weights area", "description": "The free weights area at Muscle Monster Gym.", "featured": false, "video": "/videos/free-weights.mp4", "poster": "/images/posters/free-weights.jpg", "width": 720, "height": 960, "size": 121224, "duration": 6, "uploadDate": "2025-01-15" },
+      { "id": "cardio-zone", "title": "Cardio zone", "description": "Members using the cardio machines.", "featured": false, "video": "/videos/cardio-zone.mp4", "poster": "/images/posters/cardio-zone.jpg", "width": 720, "height": 960, "size": 108584, "duration": 6, "uploadDate": "2025-01-15" },
+      { "id": "group-training", "title": "Group training", "description": "A group training session in progress.", "featured": false, "video": "/videos/group-training.mp4", "poster": "/images/posters/group-training.jpg", "width": 720, "height": 960, "size": 114524, "duration": 6, "uploadDate": "2025-01-15" },
+      { "id": "personal-training", "title": "Personal training", "description": "One-on-one personal training with Tahir.", "featured": false, "video": "/videos/personal-training.mp4", "poster": "/images/posters/personal-training.jpg", "width": 720, "height": 960, "size": 123977, "duration": 6, "uploadDate": "2025-01-15" },
+      { "id": "stretching", "title": "Stretch & mobility", "description": "A stretch and mobility cooldown.", "featured": false, "video": "/videos/stretching.mp4", "poster": "/images/posters/stretching.jpg", "width": 720, "height": 960, "size": 121534, "duration": 6, "uploadDate": "2025-01-15" },
+      { "id": "boxing-bag", "title": "Boxing bag drills", "description": "Boxing bag drills during a conditioning session.", "featured": false, "video": "/videos/boxing-bag.mp4", "poster": "/images/posters/boxing-bag.jpg", "width": 720, "height": 960, "size": 122434, "duration": 6, "uploadDate": "2025-01-15" },
+      { "id": "abs-core", "title": "Core & abs circuit", "description": "A core and abs circuit at the end of a workout.", "featured": false, "video": "/videos/abs-core.mp4", "poster": "/images/posters/abs-core.jpg", "width": 720, "height": 960, "size": 120173, "duration": 6, "uploadDate": "2025-01-15" },
+      { "id": "transformation", "title": "Member transformation", "description": "A member's progress after consistent training.", "featured": false, "video": "/videos/transformation.mp4", "poster": "/images/posters/transformation.jpg", "width": 720, "height": 960, "size": 127658, "duration": 6, "uploadDate": "2025-01-15" }
+    ],
+    "ctaTile": {
+      "title": "See it in person",
+      "addressText": "Banjariya Road, Khalilabad, Uttar Pradesh",
+      "buttonLabel": "Get directions"
+    }
+  },
+  "faq": {
+    "enabled": true,
+    "items": [
+      { "question": "What is the membership fee at Muscle Monster Gym?", "answer": "Membership is a fixed \u20b9600 per month. A one-time \u20b9500 registration fee applies when you join, so your first payment is \u20b91,100." },
+      { "question": "Is the price negotiable?", "answer": "No. Muscle Monster Gym has one fixed price for every member \u2014 there is no bargaining at the counter." },
+      { "question": "Where is Muscle Monster Gym located?", "answer": "The gym is on Banjariya Road, Khalilabad, Uttar Pradesh." },
+      { "question": "Does the gym offer personal training?", "answer": "Yes. Owner-trainer Tahir offers one-on-one coaching alongside regular gym access." },
+      { "question": "What equipment is available?", "answer": "Free weights, benches, a squat rack, cardio machines and space for group training and stretching." },
+      { "question": "How do I contact the gym to join?", "answer": "Use the WhatsApp or call button on this page, or fill in the contact form, and the gym will get back to you." }
+    ]
+  },
+  "contact": {
+    "title": "Come train with us",
+    "lead": "Questions about membership, timings or training? Reach out any time.",
+    "rows": {
+      "address": { "label": "Address", "value": "Banjariya Road, Khalilabad, Uttar Pradesh 272175" },
+      "phone": { "label": "Call / WhatsApp", "fallbackText": "Phone number coming soon \u2014 please use the contact form below." },
+      "hours": { "label": "Gym timings", "fallbackText": "Timings coming soon \u2014 call the gym to confirm." }
+    },
+    "upi": {
+      "enabled": false,
+      "title": "Pay by UPI",
+      "text": "Scan the QR code at the gym counter to pay your fees by UPI."
+    },
+    "form": {
+      "mode": "whatsapp",
+      "title": "Send an inquiry",
+      "whatsappTemplate": "Hi! My name is {{name}}. {{message}} You can reach me on {{phone}}.",
+      "noPhoneMessage": "WhatsApp isn't set up yet \u2014 please call the gym directly or try again later.",
+      "fields": {
+        "name": { "label": "Your name", "placeholder": "Full name", "required": true, "errorMessage": "Please enter your name." },
+        "phone": { "label": "Phone number", "placeholder": "10-digit mobile number", "required": true, "errorMessage": "Please enter a valid phone number." },
+        "message": { "label": "Message", "placeholder": "I'd like to know more about membership...", "required": false, "errorMessage": "" }
+      },
+      "submitLabel": "Send inquiry",
+      "successMessage": "Thanks! Your inquiry has been sent.",
+      "errorMessage": "Something went wrong. Please try again or call the gym directly."
+    }
+  },
+  "cta": {
+    "title": "Aaj se shuru karo!",
+    "text": "Your first class is the hardest one. Join Muscle Monster Gym today and let's get started.",
+    "button": { "label": "Join now", "action": "whatsapp", "whatsappMessage": "Hi! I want to join Muscle Monster Gym. Please share membership details." },
+    "backgroundImage": { "path": "/images/tahir-owner.jpg", "width": 1125, "height": 1500, "alt": "Tahir, owner and head trainer at Muscle Monster Gym" }
+  },
+  "footer": {
+    "tagline": "Fitness builds confidence.",
+    "quickLinks": [
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "Why us", "href": "#why" },
+      { "label": "Trainer", "href": "#trainer" },
+      { "label": "Gallery", "href": "#gallery" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "visitUs": ["Banjariya Road", "Khalilabad, Uttar Pradesh 272175"],
+    "copyrightName": "Muscle Monster Gym"
+  },
+  "floatingActions": {
+    "whatsapp": { "label": "Chat on WhatsApp", "action": "whatsapp", "whatsappMessage": "Hi! I want to join Muscle Monster Gym. Please share membership details." },
+    "call": { "label": "Call the gym", "action": "call" }
+  }
+}
